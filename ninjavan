@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Ninjavan Lab test</title>
+<style>
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+nav{
+	height: 90px;
+	width: 100%;
+	
+}
+img.Logo{
+	padding: 0px;
+}
+	img.img1{
+		padding-top: 60px;
+	}
+
+nav ul{
+	 float: right;
+	margin-right: 100px;
+}
+
+nav ul li{
+	display:inline-block;
+	line-height: 60px;
+	margin: 0 35px 0 35px;
+}
+
+nav ul li a{
+	color: black;
+	font-size: 20px;
+	
+}
+
+
+.column {
+  float: end;
+  width: 100%;
+  padding: 20px;
+  height: 100%; 
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  background-color: #FF0000;
+  padding: 10px;
+  float: center;
+  text-align: left;
+  margin-top: 100px;
+}
+.icon {
+	text-align: center;	
+	}	
+button {
+            background-color: #FF0000;
+            color: #fff;
+            padding: 20px 90px;
+            font-size: 30px;
+            cursor: pointer;
+			border: #FF0000;
+			border-radius: 5px ;
+			margin-top:50px;
+
+        }
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-oe15{background-color:#ffffff;border-color:#ffffff;text-align:left;vertical-align:top}
+</style>
+	
+	
+
+</head>
+
+<body>
+	<div>
+<!--NAVIGATION BAR-->
+		<nav>
+		<img class="Logo" src="https://1000logos.net/wp-content/uploads/2022/08/Ninja-Van-Logo.png" width="150" alt=""/>
+		<ul>
+        <li><a href="https://www.ninjavan.co/en-my/tracking">Tracking</a></li>
+        <li><a href="https://www.ninjavan.co/en-my/all-services">Service</a></li>
+        <li><a href="https://www.ninjavan.co/en-my/shipper-resources">Support</a></li>
+        <li><a href="https://www.ninjavan.co/en-my/ninja-points">Ninja Points</a></li>
+        <li><a href="https://www.ninjavan.co/en-my/careers">Careers</a></li>
+		</ul>
+    	</nav>
+	</div>
+<!---------------------------------->
+<!--CONTENT 1-->
+	<div class="row">
+		<div class="column">
+		<img class="img1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ9llqMHVcwU8hNq0DMy_N0fhJSY_E00Az5w&s" width="300" alt=""  />
+		</div>
+		
+		<!------>
+<div class="column">
+	<h2>All-you-can-fit Ninja</h2>
+	<h2>Packs</h2>
+	<p>Flat rate to anywhere within Peninsula Malaysia with no printer required. From only RM5.60 per parcel, you just have to pack, create order and drop off!</p>
+<table class="tg">
+
+  <tr>
+    <th class="tg-oe15">
+	<p>  -  Flexible parcel pickups</p>
+	  </th>
+  </tr>
+<tbody>
+  <tr>
+    <td class="tg-oe15">
+	<p>  - Reliable cash-on-delivery</p>
+	  </td>
+  </tr>
+  <tr>
+    <td class="tg-oe15">
+	<p>  - Easy order reation</p>
+	  </td>
+  </tr>
+</tbody>
+</table>
+	
+		<!------>
+		</div>
+		</div>
+		<div style="text-align: center"><button onclick="window.location.href='https://dashboard.ninjavan.co/signup'">
+        <h2>Start shipping now</h2>
+    </button></div>
+	
+	<div class="footer">
+	<div class="column">
+		<p style="text-align: start"><span style="font-size: 24px"></span><br>
+		<a href="https://t.me/ninjavan_my_bot"><img src="https://image.similarpng.com/very-thumbnail/2020/11/Black-Telegram-icon-in-flat-design-Isolated-premium-vector-PNG.png" alt="Image" width="6%"></a>
+		<a href="https://www.messenger.com/login.php?"><img src="https://image.similarpng.com/very-thumbnail/2020/11/Black-Messanger-icon-in-flat-design-premium-vector-PNG.png" alt="Image" width="6%"></a></p>
+		</div>
+		
+			
+</div>
+    
+    
+</body>
+</html>
